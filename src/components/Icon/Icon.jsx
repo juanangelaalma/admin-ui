@@ -49,6 +49,22 @@ const CommunicationIcon = ({ color }) => {
   )
 }
 
+const BellIcon = ({ color }) => {
+  return (
+    <svg width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10.5 26C9.05025 26 7.875 24.8359 7.875 23.4H13.125C13.125 24.8359 11.9497 26 10.5 26ZM21 22.1H0V19.5L2.625 18.2V11.05C2.625 6.5494 4.49006 3.6309 7.875 2.834V0H13.125V2.834C16.5099 3.6296 18.375 6.5468 18.375 11.05V18.2L21 19.5V22.1ZM10.5 4.875C8.89832 4.77256 7.35365 5.48246 6.39844 6.76C5.58147 8.03992 5.18062 9.5373 5.25 11.05V19.5H15.75V11.05C15.8193 9.5373 15.4185 8.03996 14.6016 6.76C13.6463 5.48246 12.1017 4.77256 10.5 4.875Z" fill={color}/>
+    </svg>
+  )
+}
+
+const CardIcon = ({ color }) => {
+  return (
+    <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M18.9 17H2.1C0.940202 17 0 16.0486 0 14.875V2.125C0 0.951395 0.940202 0 2.1 0H18.9C20.0598 0 21 0.951395 21 2.125V14.875C21 16.0486 20.0598 17 18.9 17ZM2.1 8.5V14.875H18.9V8.5H2.1ZM2.1 2.125V4.25H18.9V2.125H2.1ZM11.55 12.75H4.2V10.625H11.55V12.75Z" fill={color}/>
+    </svg>
+  )
+}
+
 const Icon = ({ name, color }) => {
   if(name === "home") {
     return <HomeIcon color={color || "#BAC0CA"} />
@@ -67,6 +83,12 @@ const Icon = ({ name, color }) => {
   }
   if(name === "communication") {
     return <CommunicationIcon color={color || "#BAC0CA"} />
+  }
+  if(name === "bell") {
+    return <BellIcon color={color || "#BAC0CA"} />
+  }
+  if(name === "card") {
+    return <CardIcon color={color || "#BAC0CA"} />
   }
   return <div></div>
 }

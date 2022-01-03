@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components"
+import { Button } from "../Button/Button";
+import Icon from "../Icon/Icon";
 
 import { Title, Paragraph } from "../Text/Text"
 
 const RightbarWrap = styled.aside`
   flex: 3.5;
-  height: 100%;
   background-color: #F7F7FA;
-  display: flex;
+  // display: flex;
 `
 
 const Header = styled.div`
@@ -17,19 +18,27 @@ const Header = styled.div`
 
 const Wrap = styled.div`
   display: flex;
-  flex-direction: ${props => props.flexDirection || "row"};
+  flex-direction: ${props => props.flexDirection};
+  justify-content: ${props => props.justifyContent};
+  background: ${props => props.background || "none"};
+  width: ${props => props.width};
 `
 
 const Righbar = () => {
     return (
         <RightbarWrap>
             <Header>
-              <Wrap flexDirection="column">
+              <Wrap flexDirection="column"  width="50%" justifyContent="center">
                 <Title>Cryptocurrency</Title>
                 <Paragraph margin="1em 0 0 0" color="#F09F30">Increase your profile</Paragraph>
               </Wrap>
-              <Wrap>
-                
+              <Wrap width="50%" justifyContent="flex-end">
+                <Button padding="0.5em" margin="0.7em 0" borderRadius="50%" width="3em" height="3em">
+                  <Icon name="bell" color="#000" />
+                </Button>
+                <Button padding="0.5em" margin="0.7em 0 0.7em 1em" borderRadius="50%" width="3em" height="3em">
+                  <Icon name="card" color="#000"/>
+                </Button>
               </Wrap>
             </Header>
         </RightbarWrap>
