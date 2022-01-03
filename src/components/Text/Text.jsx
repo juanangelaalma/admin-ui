@@ -7,4 +7,12 @@ const Title = styled.h1`
    margin: ${props => props.margin || "0"}
 `
 
-export { Title }
+const Paragraph = styled.p`
+  color: ${props => props.color || "#000"};
+  font-size: ${props => props.fontSize || "1em"};
+  margin: ${props => props.margin || "0"};
+  font-family: "Roboto";
+  font-weight: 300;
+`
+
+export { Title, Paragraph }

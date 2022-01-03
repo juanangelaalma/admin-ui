@@ -4,7 +4,7 @@ import styled from "styled-components"
 import Navbar from "../components/Navbar/Navbar";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Main from "../components/Main/Main";
-import Righbar from "../components/Rightbar/Rightbar";
+import Rightbar from "../components/Rightbar/Rightbar";
 
 const DashboardWrap = styled.div`
   width: 100%;
@@ -18,7 +18,7 @@ const Dashboard = () => {
         <DashboardWrap>
             <Sidebar />
             <Main />
-            <Righbar />
+            <Rightbar />
         </DashboardWrap>
     )
 }
