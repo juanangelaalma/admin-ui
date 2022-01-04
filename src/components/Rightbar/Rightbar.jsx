@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components"
 import { Button } from "../Button/Button";
+import CardPortofolio from "../Card/CardPortofolio";
 import Icon from "../Icon/Icon";
 
 import { Title, Paragraph } from "../Text/Text"
@@ -22,6 +23,7 @@ const Wrap = styled.div`
   justify-content: ${props => props.justifyContent};
   background: ${props => props.background || "none"};
   width: ${props => props.width};
+  padding: ${props => props.padding};
 `
 
 const Righbar = () => {
@@ -41,6 +43,9 @@ const Righbar = () => {
                 </Button>
               </Wrap>
             </Header>
+            <Wrap padding="1em">
+              <CardPortofolio></CardPortofolio>
+            </Wrap>
         </RightbarWrap>
     )
 }

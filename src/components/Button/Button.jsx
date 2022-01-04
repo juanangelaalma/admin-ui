@@ -14,8 +14,13 @@ const Button = styled.button`
   width: ${props => props.width};
   height: ${props => props.height};
   display: ${props => props.display};
-  justifyContent: ${props => props.justifyContent};
-  alignItems: ${props => props.alignItem};
+  justify-content: ${props => props.justifyContent};
+  align-items: ${props => props.alignItems};
+  position: ${props => props.position};
+  top: ${props => props.top};
+  left: ${props => props.left};
+  right: ${props => props.right};
+  bottom: ${props => props.bottom};
 `
 
 export { Button }

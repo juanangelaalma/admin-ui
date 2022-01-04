@@ -65,6 +65,14 @@ const CardIcon = ({ color }) => {
   )
 }
 
+const ChartIcon = ({ color }) => {
+  return (
+    <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M25 22H20.8333V8.25H25V22ZM18.0556 22H13.8889V4.125H18.0556V22ZM11.1111 22H6.94444V0H11.1111V22ZM4.16667 22H0V11H4.16667V22Z" fill={color}/>
+    </svg>
+  )
+}
+
 const Icon = ({ name, color }) => {
   if(name === "home") {
     return <HomeIcon color={color || "#BAC0CA"} />
@@ -89,6 +97,9 @@ const Icon = ({ name, color }) => {
   }
   if(name === "card") {
     return <CardIcon color={color || "#BAC0CA"} />
+  }
+  if(name === "chart") {
+    return <ChartIcon color={color || "#BAC0CA"} />
   }
   return <div></div>
 }
