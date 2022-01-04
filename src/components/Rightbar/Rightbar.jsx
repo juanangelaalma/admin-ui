@@ -43,9 +43,7 @@ const Righbar = () => {
                 </Button>
               </Wrap>
             </Header>
-            <Wrap padding="1em">
-              <CardPortofolio></CardPortofolio>
-            </Wrap>
+            <CardPortofolio />
         </RightbarWrap>
     )
 }
