@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components"
 import { Button } from "../Button/Button";
 import CardPortofolio from "../Card/CardPortofolio";
+import FavoriteCoin from "../FavoritesCoin/FavoriteCoin";
 import Icon from "../Icon/Icon";
 
 import { Title, Paragraph } from "../Text/Text"
@@ -44,6 +45,7 @@ const Righbar = () => {
               </Wrap>
             </Header>
             <CardPortofolio />
+            <FavoriteCoin />
         </RightbarWrap>
     )
 }

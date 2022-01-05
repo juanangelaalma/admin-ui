@@ -15,6 +15,7 @@ const Paragraph = styled.p`
   font-family: "Roboto";
   font-weight: 300;
   align-self: ${props => props.alignFlex};
+  width: ${props => props.width};
 `
 
 export { Title, Paragraph }
