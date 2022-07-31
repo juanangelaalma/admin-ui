@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T01:20:38.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kd1_bbpZN9llpJYl_IKK" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T02:07:52.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ep-rKLF6faeRT2uAYmfA" version="20.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1021" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2170" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -136,6 +136,11 @@
         </mxCell>
         <mxCell id="LG4qaFzF8JyiB9Ac7d4_-40" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Sudah&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=12;rotation=90;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1034" y="767" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DDKoht3jb006jutH0zdR-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LG4qaFzF8JyiB9Ac7d4_-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="1300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LG4qaFzF8JyiB9Ac7d4_-41" value="Tandai sudah&lt;br&gt;dilakukan" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="435" y="931" width="120" height="60" as="geometry" />
@@ -367,9 +372,6 @@
         </mxCell>
         <mxCell id="DDKoht3jb006jutH0zdR-17" value="Tampilan Evaluasi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="983.5" y="817" width="120" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="DDKoht3jb006jutH0zdR-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DDKoht3jb006jutH0zdR-18" target="DDKoht3jb006jutH0zdR-19">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DDKoht3jb006jutH0zdR-18" value="Tampilan Kontak" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1190" y="816" width="120" height="43" as="geometry" />
